@@ -1,0 +1,35 @@
+#nav-bar {
+    height: 70px;
+    background-color: #221717;
+    color: #f1fff1;
+    position: relative;
+}
+
+#nav-links {
+    display: none;
+}
+
+#logo-img {
+    padding: 10px 15px;
+    margin: 0;
+    position: absolute;               
+    top: 50%;                         
+    transform: translate(0, -50%);
+    float: left;
+}
+
+#hamburger-icon {
+    padding: 10px 15px;
+    float:right;                     
+}
+
+.icon-line {
+    width: 25px;
+    height: 3px;
+    background-color: #5ef4d6;
+    margin: 6px 0;
+}
+
+#header-text {
+    clear: both;
+}
