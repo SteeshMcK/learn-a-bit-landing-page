@@ -12,12 +12,18 @@ body {
     position: relative;
 }
 
+#nav-elements {
+    height: 70px;
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+
 #nav-links {
     display: none;
 }
 
 #logo-img {
-    padding: 10px 15px;
     margin: 0;
     position: absolute;               
     top: 50%;                         
@@ -25,7 +31,6 @@ body {
 }
 
 #hamburger-icon {
-    padding: 10px 15px;
     position: absolute;
     top: 50%;                         
     transform: translate(0, -50%);
@@ -40,7 +45,45 @@ body {
 }
 
 #header-field {
-   width: 90%;
+   width: 85%;
    margin: auto;
-   border: 1px solid #5ef4d6;
+   margin-top: 40px;
+   border: 2.5px solid #5ef4d6;
+   border-radius: 10px;
+   background-color: rgba(34,23,39,0.5);
+}
+
+#header-text {
+    width: 85%;
+    margin: auto;
+}
+
+#header-headline {
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+    color: #f1fff6;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 1.25;
+}
+
+#header-description {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: #f1fff6;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#join-btn {
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #5efad6;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
