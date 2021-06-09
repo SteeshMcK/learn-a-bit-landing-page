@@ -1,3 +1,10 @@
+body {
+    background-image: url("../images/mintbean-dome.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
 #nav-bar {
     height: 70px;
     background-color: #221717;
@@ -32,6 +39,8 @@
     margin: 6px 0;
 }
 
-#header-text {
-    clear: both;
+#header-field {
+   width: 90%;
+   margin: auto;
+   border: 1px solid #5ef4d6;
 }
