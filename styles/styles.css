@@ -87,3 +87,20 @@ body {
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
+
+/* DESKTOP STYLING */
+@media screen and (min-width: 1224px) {
+
+    #nav-links {
+        display: block;
+        position: absolute;
+        top: 50%;                         
+        transform: translate(0, -50%);
+        right: 0; 
+    }
+
+    #hamburger-icon {
+        display: none;
+    }
+
+}
