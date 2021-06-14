@@ -1,3 +1,12 @@
+/* CSS VARIABLES */
+:root {
+    --main-dark: #221717;
+    --main-light: #f1fff1;
+    --main-highlight: #5ef4d6;
+    --element-hover: #ea967a;
+  }
+
+/* HEADER BACKGROUND */
 .header-field {
     background-image: url("../images/mintbean-dome.png");
     background-repeat: no-repeat;
@@ -9,8 +18,8 @@
 /* -----NAVIGATION BAR----- */
 .nav-bar {
     height: 80px;
-    background-color: #221717;
-    color: #f1fff1;
+    background-color: var(--main-dark);
+    color: var(--main-light);
 }
 
 .nav-elements {
@@ -65,7 +74,7 @@
 .icon-line {
     width: 25px;
     height: 3px;
-    background-color: #5ef4d6;
+    background-color: var(--main-highlight)
     margin: 6px 0;
 }
 
@@ -78,7 +87,7 @@
 .header-box {
    width: 100%;
    margin-top: 40px;
-   border: 2.5px solid #5ef4d6;
+   border: 2.5px solid var(--main-highlight);
    border-radius: 10px;
    background-color: rgba(34,23,39,0.75);
 }
@@ -92,7 +101,7 @@
 .header-headline {
     font-family: 'Viga', sans-serif;
     font-size: 32px;
-    color: #f1fff6;
+    color: var(--main-light);
     padding-top: 25px;
     padding-bottom: 25px;
     line-height: 1.25;
@@ -102,7 +111,7 @@
 .header-description {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    color: #f1fff6;
+    color: var(--main-light);
     line-height: 1.6;
     margin-bottom: 30px;
 }
@@ -112,7 +121,7 @@
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    background-color: #5efad6;
+    background-color: var(--main-highlight);
     border: none;
     border-radius: 10px;
     padding-top: 10px;
@@ -138,12 +147,17 @@
 
     .link {
         font-family: 'Rubik', sans-serif;
-        color: #f1fff6;
+        color: var(--main-light);
         font-size: 20px;
         text-decoration: none;
-        border-right: 2px solid #f1fff6;
+        border-right: 2px solid var(--main-light);
         padding-right: 5px;
         padding-left: 2px;
+    }
+
+    .link:hover {
+        color: var(--element-hover);
+        font-size: 25px;
     }
     
     .no-side-border {
@@ -154,10 +168,15 @@
         font-family: 'Rubik', sans-serif;
         font-size: 20px;
         font-weight: bold;
-        background-color: #5efad6;
+        background-color: var(--main-highlight);
         border: none;
         border-radius: 10px;
         padding: 10px 30px;
+    }
+
+    .nav-btn:hover {
+        font-size: 25px;
+        background-color: var(--element-hover);
     }
 
      .hamburger-icon {
@@ -176,6 +195,11 @@
     .join-btn {
         width: 50%;
         font-size: 25px;
+    }
+
+    .join-btn:hover {
+        font-size:27px;
+        background-color: var(--element-hover);
     }
 
 }
