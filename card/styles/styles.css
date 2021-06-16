@@ -1,0 +1,50 @@
+:root {
+    --main-dark: #221717;
+    --main-light: #f1fff1;
+    --main-highlight-darkslateblue: #4143b1;
+    --main-highlight-aquamarine: #5ef4d6;
+}
+
+.main-card {
+    background-color: var(--main-highlight-darkslateblue);
+}
+
+.card-section {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.card-section-headline {
+    font-family: 'Viga', sans-serif; 
+    color: var(--main-highlight-aquamarine);
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.card-body {
+    background-color: var(--main-dark);
+    border: 2.5px solid var(--main-highlight-aquamarine);
+    border-radius: 10px;
+}
+
+.card-article {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--main-light);
+}
+
+.card-article-headline {
+    font-family: 'Viga', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.card-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    padding: 0 20px;
+}
