@@ -12,14 +12,14 @@
 }
 
 .team-section {
-    width: 80%;
+    /* BOX MODEL */
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: auto;
 }
 
 .team-headline {
-    /* DISPLAY */
-    padding-top: 20px;
-
     /* TYPOGRAPHIC */
     font-family: var(--font-viga);
     font-size: 2em;
@@ -28,7 +28,14 @@
 }
 
 .team-card {
+    /* BOX MODEL */
+    padding-top: 100px;
+    padding-bottom: 10px;
+
+    /* VISUAL */
     background-color: var(--main-dark);
+    border: 2px solid var(--main-highlight-aquamarine);
+    border-radius: 10px;
 }
 
 .team-article {
