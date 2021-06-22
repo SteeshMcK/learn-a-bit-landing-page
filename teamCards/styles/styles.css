@@ -42,19 +42,38 @@
     text-align: center;
 }
 
+.team-image {
+    width: 200px;
+    height: 200px;
+    border: 1px solid var(--main-highlight-aquamarine);
+    border-radius: 50%;
+}
+
 .team-member {
     /* TYPOGRAPHIC */
     font-family: var(--font-viga);
-    font-size: 1.75em;
+    font-size: 2em;
     color: var(--main-highlight-aquamarine);
 }
 
-.team-memeber-title {
+.team-member-title {
+    /* BOX MODEL */
+    padding: 5px 10px;
+
+    /* TYPOGRAPHIC */
+    font-family: var(--font-rubik);
     color: var(--main-highlight-aquamarine);
 }
 
 .team-member-about {
+    /* BOX MODEL */
+    padding: 20px;
     /* TYPOGRAPHIC */
     font-family: var(--font-rubik);
     color: var(--main-light);
+}
+
+.team-social {
+    display: flex;
+    justify-content: space-evenly;
 }
