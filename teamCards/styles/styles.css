@@ -1,0 +1,53 @@
+:root {
+    --main-dark: #221717;
+    --main-light: #f1fff1;
+    --main-highlight-darkslateblue: #4143b1;
+    --main-highlight-aquamarine: #5ef4d6;
+    --font-viga: 'Viga', sans-serif;
+    --font-rubik: 'Rubik', sans-serif;
+}
+
+.team-main {
+    background-color: var(--main-highlight-darkslateblue);
+}
+
+.team-section {
+    width: 80%;
+    margin: auto;
+}
+
+.team-headline {
+    /* DISPLAY */
+    padding-top: 20px;
+
+    /* TYPOGRAPHIC */
+    font-family: var(--font-viga);
+    font-size: 2em;
+    color: var(--main-highlight-aquamarine);
+    text-align: center;
+}
+
+.team-card {
+    background-color: var(--main-dark);
+}
+
+.team-article {
+    text-align: center;
+}
+
+.team-member {
+    /* TYPOGRAPHIC */
+    font-family: var(--font-viga);
+    font-size: 1.75em;
+    color: var(--main-highlight-aquamarine);
+}
+
+.team-memeber-title {
+    color: var(--main-highlight-aquamarine);
+}
+
+.team-member-about {
+    /* TYPOGRAPHIC */
+    font-family: var(--font-rubik);
+    color: var(--main-light);
+}
