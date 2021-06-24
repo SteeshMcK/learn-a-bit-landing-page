@@ -36,10 +36,13 @@
 }
 
 .team-cards-container {
-    padding-top: 100px;
+    /* FLEX */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
+    /* BOX MODEL */
+    padding-top: 100px;
 }
 
 .team-article {
