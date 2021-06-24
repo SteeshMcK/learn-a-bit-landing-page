@@ -7,6 +7,8 @@
     --font-rubik: 'Rubik', sans-serif;
 }
 
+/* MOBILE STYLING */
+
 .team-main {
     /* VISUAL */
     background-color: var(--main-highlight-darkslateblue);
@@ -22,17 +24,22 @@
 
 .team-headline {
     /* BOX MODEL */
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     /* TYPOGRAPHIC */
     font-family: var(--font-viga);
-    font-size: 2em;
+    font-size: 3em;
+    letter-spacing: 0.2em;
     color: var(--main-highlight-aquamarine);
     text-align: center;
 }
 
 .team-cards-container {
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .team-article {
@@ -40,7 +47,7 @@
     position: relative;
 
     /* BOX MODEL */
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 
     /* TYPOGRAPHIC */
     text-align: center;
@@ -49,7 +56,7 @@
 .team-fig-image {
     /* POSITIONING */
     position: absolute;
-    top: -25%;
+    top: -100px;
 
     /* BOX MODEL */
     display:block;
@@ -59,9 +66,6 @@
 }
 
 .team-image {
-    /* BOX MODEL */
-    width: 200px;
-    height: 200px;
 
     /* VISUAL */
     border: 1px solid var(--main-highlight-aquamarine);
@@ -98,14 +102,18 @@
 .team-member-about {
     /* BOX MODEL */
     padding: 20px;
+
     /* TYPOGRAPHIC */
     font-family: var(--font-rubik);
+    line-height: 1.6;
+    letter-spacing: 0.3px;
     color: var(--main-light);
 }
 
 .team-social {
     /* FLEX */
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
 
     /* BOX MODEL */
@@ -119,11 +127,19 @@
         height: 100vh;
     }
 
-    .team-section {
+    .team-cards-container {
+         /* FLEX */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
         /* POSITIONING */
         position: fixed;
         top: 50%;
         left: 50%;
+        
+        /* BOX MODEL */
+        width: 80%;
 
         /* VISUAL */
         transform: translate(
@@ -133,29 +149,21 @@
 
     .team-headline {
         /* BOX MODEL */
+        padding-top: 0px;
         padding-bottom: 50px;
 
         /* TYPOGRAPHIC */
         font-size: 3em;
     }
-    .team-cards-container {
-        /* FLEX */
-        display: flex;
-        justify-content: center;
-    }
 
     .team-article {
         /* BOX MODEL */
         width: 30%;
-    }
-
-    .team-article:nth-child(-n+2) {
-        /* BOX MODEL */
-        padding-right: 20px;
+        padding-bottom: 0px;
     }
 
     .team-card {
         /* BOX MODEL */
-        height: 60%;
+        height: 100%;
     }
 }
