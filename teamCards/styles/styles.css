@@ -8,6 +8,7 @@
 }
 
 .team-main {
+    /* VISUAL */
     background-color: var(--main-highlight-darkslateblue);
 }
 
@@ -20,6 +21,9 @@
 }
 
 .team-headline {
+    /* BOX MODEL */
+    padding-bottom: 100px;
+
     /* TYPOGRAPHIC */
     font-family: var(--font-viga);
     font-size: 2em;
@@ -27,26 +31,52 @@
     text-align: center;
 }
 
-.team-card {
-    /* BOX MODEL */
+.team-cards-container {
     padding-top: 100px;
-    padding-bottom: 10px;
-
-    /* VISUAL */
-    background-color: var(--main-dark);
-    border: 2px solid var(--main-highlight-aquamarine);
-    border-radius: 10px;
 }
 
 .team-article {
+    /* POSITIONING */
+    position: relative;
+
+    /* BOX MODEL */
+    padding-bottom: 200px;
+
+    /* TYPOGRAPHIC */
     text-align: center;
 }
 
+.team-fig-image {
+    /* POSITIONING */
+    position: absolute;
+    top: -25%;
+
+    /* BOX MODEL */
+    display:block;
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+
 .team-image {
+    /* BOX MODEL */
     width: 200px;
     height: 200px;
+
+    /* VISUAL */
     border: 1px solid var(--main-highlight-aquamarine);
     border-radius: 50%;
+}
+
+.team-card {
+    /* BOX MODEL */
+    padding-top: 125px;
+    padding-bottom: 5px;
+
+    /* VISUAL */
+    background-color: var(--main-dark);
+    border: 1px solid var(--main-highlight-aquamarine);
+    border-radius: 10px;
 }
 
 .team-member {
@@ -74,6 +104,58 @@
 }
 
 .team-social {
+    /* FLEX */
     display: flex;
     justify-content: space-evenly;
+
+    /* BOX MODEL */
+    padding-top: 20px;
+}
+/* =========================================================== */
+/* DESKTOP STYLING */
+@media screen and (min-width: 1224px) {
+    .team-main {
+        /* BOX MODEL */
+        height: 100vh;
+    }
+
+    .team-section {
+        /* POSITIONING */
+        position: fixed;
+        top: 50%;
+        left: 50%;
+
+        /* VISUAL */
+        transform: translate(
+            -50%, -50%
+        );
+    }
+
+    .team-headline {
+        /* BOX MODEL */
+        padding-bottom: 50px;
+
+        /* TYPOGRAPHIC */
+        font-size: 3em;
+    }
+    .team-cards-container {
+        /* FLEX */
+        display: flex;
+        justify-content: center;
+    }
+
+    .team-article {
+        /* BOX MODEL */
+        width: 30%;
+    }
+
+    .team-article:nth-child(-n+2) {
+        /* BOX MODEL */
+        padding-right: 20px;
+    }
+
+    .team-card {
+        /* BOX MODEL */
+        height: 60%;
+    }
 }
