@@ -11,20 +11,19 @@
 .footer {
     height:100vh;
     padding: 20px 5%;
+    font-family: var(--font-rubik);
     background-color: var(--main-dark);
-}
+}   
 
 .footer__links {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
-    font-family: var(--font-rubik);
-    font-size: 1.5em;
 }
 
-.footer__nav--links {
-    position: absolute;
-    right: 0;
-    top: 0;
+.footer__nav {
+    width: 50%;
+    font-size: 1.5em;
 }
 
 .footer__list {
@@ -34,6 +33,10 @@
 .footer__item {
     padding: 5px;
     line-height: 2em;
+}
+
+.footer__item--link {
+    text-align: right;
 }
 
 .footer__link {
@@ -61,6 +64,53 @@
     background: center left no-repeat url(../images/mail.svg);
     background-size: 2em;
 }
-/* @media screen and (min-width: 768px) {
 
-} */
+.footer__brand {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 10px;
+    color: white;
+    font-size: 1.25em;
+}
+
+.footer__logo {
+    padding-bottom: 35px;
+}
+
+.footer__power {
+    width: 300px;
+    margin: auto;
+    background: center right no-repeat url(../images/mintbeanLogo.png);
+}
+
+.footer__copyright {
+    padding-top: 30px;
+    margin: auto;
+}
+
+/* TABLET & DESKTOP STYLES */
+@media screen and (min-width: 768px) {
+
+    .footer__links {
+        justify-content: space-evenly;
+    }
+
+    .footer__nav {
+        width: 30%;
+    }
+
+    .footer__nav--social {
+        order: 1;
+    }
+
+    .footer__nav--links {
+        order: 3;
+    }
+
+    .footer__brand {
+        order: 2;
+        width: 30%;
+    }
+
+}
