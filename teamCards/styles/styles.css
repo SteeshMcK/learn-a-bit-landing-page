@@ -169,4 +169,12 @@
         /* BOX MODEL */
         height: 100%;
     }
+
+    .article__section--title {
+        height: 50px;
+    }
+
+    .article__section--about {
+        height: 225px;
+    }
 }
