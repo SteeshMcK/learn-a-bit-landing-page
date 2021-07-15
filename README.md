@@ -1,5 +1,5 @@
 # learn-a-bit-landing-page  
-Landing page created during Mintbean's Learn-a-bit build-a-long  
+Responsive landing page created during Mintbean's Learn-a-bit build-a-long  
 
 # Challenge #1 : Header   
    GitHub Pages => [Landing Page Header](https://steeshmck.github.io/learn-a-bit-landing-page/header/index.html)  
