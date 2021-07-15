@@ -10,6 +10,6 @@ Landing page created during Mintbean's Learn-a-bit build-a-long
    [GitHub repository](https://github.com/SteeshMcK/learn-a-bit-landing-page/tree/main/teamCards)  
    
 # Challenge #5 : Footer
-   GitHub Pages => [Footer](https://steeshmck.github.io/learn-a-bit-landing-page/footer/index.html)
-   [GitHub repository](https://github.com/SteeshMcK/learn-a-bit-landing-page/tree/main/footer)
+   GitHub Pages => [Footer](https://steeshmck.github.io/learn-a-bit-landing-page/footer/index.html)  
+   [GitHub repository](https://github.com/SteeshMcK/learn-a-bit-landing-page/tree/main/footer)  
    
