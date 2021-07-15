@@ -6,7 +6,7 @@ Responsive landing page created during Mintbean's Learn-a-bit build-a-long
    [GitHub Repository](https://github.com/SteeshMcK/learn-a-bit-landing-page/tree/main/header)  
    
 # Challenge #2 : Card
-   GitHub Pages => [Card](https://steeshmck.github.io/learn-a-bit-landing-page/card/index.html)
+   GitHub Pages => [Card](https://steeshmck.github.io/learn-a-bit-landing-page/card/index.html)  
    [GitHub Repository](https://github.com/SteeshMcK/learn-a-bit-landing-page/tree/main/card)
    
  # Challenge #3 : Team Card  
