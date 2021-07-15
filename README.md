@@ -1,5 +1,5 @@
 # learn-a-bit-landing-page  
-Responsive landing page created during Mintbean's Learn-a-bit build-a-long  
+Each challenge is an element that, when they're all put together, will create a responsive landing page
 
 # Challenge #1 : Header   
    GitHub Pages => [Landing Page Header](https://steeshmck.github.io/learn-a-bit-landing-page/header/index.html)  
