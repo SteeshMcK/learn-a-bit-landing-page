@@ -4,6 +4,8 @@
     --main-light: #f1fff1;
     --main-highlight: #5ef4d6;
     --element-hover: #ea967a;
+    --font-viga: 'Viga', sans-serif;
+    --font-rubik: 'Rubik', sans-serif;
   }
 
 /* HEADER BACKGROUND */
@@ -99,7 +101,7 @@
 }
 
 .header-headline {
-    font-family: 'Viga', sans-serif;
+    font-family: var(--font-viga);
     font-size: 32px;
     color: var(--main-light);
     padding-top: 25px;
@@ -109,7 +111,7 @@
 }
 
 .header-description {
-    font-family: 'Rubik', sans-serif;
+    font-family: var(--font-rubik);
     font-size: 20px;
     color: var(--main-light);
     line-height: 1.6;
@@ -118,7 +120,7 @@
 
 .join-btn {
     width: 100%;
-    font-family: 'Rubik', sans-serif;
+    font-family: var(--font-rubik);
     font-size: 20px;
     font-weight: bold;
     background-color: var(--main-highlight);
@@ -146,7 +148,7 @@
     }
 
     .link {
-        font-family: 'Rubik', sans-serif;
+        font-family: var(--font-rubik);
         color: var(--main-light);
         font-size: 20px;
         text-decoration: none;
@@ -165,7 +167,7 @@
     }
     
     .nav-btn {
-        font-family: 'Rubik', sans-serif;
+        font-family: var(--font-rubik);
         font-size: 20px;
         font-weight: bold;
         background-color: var(--main-highlight);
