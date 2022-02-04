@@ -10,12 +10,10 @@
 /* MOBILE STYLING */
 
 .team-main {
-    /* VISUAL */
     background-color: var(--main-highlight-darkslateblue);
 }
 
 .team-section {
-    /* BOX MODEL */
     width: 70%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -23,11 +21,8 @@
 }
 
 .team-headline {
-    /* BOX MODEL */
     padding-top: 50px;
     padding-bottom: 50px;
-
-    /* TYPOGRAPHIC */
     font-family: var(--font-viga);
     font-size: 3em;
     letter-spacing: 0.2em;
@@ -36,23 +31,15 @@
 }
 
 .team-cards-container {
-    /* FLEX */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
-    /* BOX MODEL */
     padding-top: 100px;
 }
 
 .team-article {
-    /* POSITIONING */
     position: relative;
-
-    /* BOX MODEL */
     padding-bottom: 150px;
-
-    /* TYPOGRAPHIC */
     text-align: center;
 }
 
